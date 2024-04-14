@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity2">
+
+
+    <TableRow
+
+        android:layout_width="900dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp">
+
+
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/txtsurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/txtclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/txtgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+    </TableRow>
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/txthobbies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/txtmarks"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Hello"
+            android:textSize="23dp" />
+
+    </TableRow>
+
+
+
+
+
+
+
+
+</TableLayout>
